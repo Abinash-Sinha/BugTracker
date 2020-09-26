@@ -1,0 +1,29 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend for BugTracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abinash-Sinha/BugTracker.git"
+  },
+  "keywords": [
+    "frontend",
+    "bugtracker",
+    "react",
+    "django"
+  ],
+  "author": "Abinash Sinha",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Abinash-Sinha/BugTracker/issues"
+  },
+  "homepage": "https://github.com/Abinash-Sinha/BugTracker#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
