@@ -27,7 +27,7 @@ function App() {
 	  	</aside>
 
 	  	<section class="main">
-			<img title="Sticky Notes" src="https://abbeyjfitzgerald.com/wp-content/uploads/2017/12/sticky-notes.jpg" alt="Sticky Notes"></img>        
+			<img title="Sticky Notes" src="" alt="Sticky Notes"></img>        
 			<h2>Sticky Positioning</h2>
 			<p>Sticky positioning is a combo of relative and fixed positioning. It’s useful for any UI element that you want to be “sticky” as user’s are scrolling. Users see it get “stuck” it when element gets to a specific distance from the the edge of the viewport. </p>
 			<p>We'll need a long page to demonstrate this. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
