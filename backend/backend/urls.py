@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/newbug/', views.bug_list),
     path('api/bugs/', views.bug_detail)
+    path('api/newproj/', )
 ]

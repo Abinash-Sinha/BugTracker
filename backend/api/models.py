@@ -11,4 +11,14 @@ class NewBug(models.Model):
     
     def __str__(self):
         return self.name
-    
+
+class NewProject(models.Model):
+    name = models.CharField('Name', max_length=240)
+    email = models.EmailField()
+    project_name = models.CharField('Project Name', max_length=240)
+    project_desc = models.CharField("Project Description", max_length=240)
+    date = models.DateField("Date", auto_now_add=True)
+
+    def __str__(self):
+        return self.project_name
+
