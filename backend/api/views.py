@@ -25,7 +25,7 @@ def bug_list(request):
 @api_view(['GET', 'DELETE'])
 def bug_detail(request):
     try:
-        newbug = NewBug.objects.get(pk=pk)
+        newbug = NewBug.objects.all()
     except NewBug.DoesNotExist:
         return Response(status=status.HTTP_404_NOT_FOUND)
 
