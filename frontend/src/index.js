@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Projects from './components/projects'
+import NewBug from './components/new'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Projects /> 
+    <Projects />
+    <NewBug />
   </React.StrictMode>,
   document.getElementById('root')
 );

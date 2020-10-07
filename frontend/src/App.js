@@ -5,17 +5,17 @@ import Nav from 'react-bootstrap/Nav'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import FormControl from 'react-bootstrap/FormControl'
-import Projects from './components/projects'
+
 const Home = () => {
   	return (
 		<Navbar bg="dark" expand="lg">
-		<Navbar.Brand href="#home" style={{color:"white"}}>Abinash's BugTracker</Navbar.Brand>
+		<Navbar.Brand href="/" style={{color:"white"}}>Abinash's BugTracker</Navbar.Brand>
 		<Navbar.Toggle aria-controls="basic-navbar-nav" />
 		<Navbar.Collapse id="basic-navbar-nav">
 			<Nav className="mr-auto">
 			<Nav.Link href="#home" style={{color:"white"}}>Home</Nav.Link>
 			<Nav.Link href="#projects" style={{color:"white"}}>Projects</Nav.Link>
-			<Nav.Link href="#about" onClick={Projects} style={{color:"white"}}>About</Nav.Link>
+			<Nav.Link href="#about"  style={{color:"white"}}>About</Nav.Link>
 			<Nav.Link href="#help" style={{color:"white"}}>Help</Nav.Link>
 			</Nav>
 			<Form inline>
@@ -24,7 +24,8 @@ const Home = () => {
 			</Form>
 		</Navbar.Collapse>
 		</Navbar>
-  	);
+	  );
+	 
 }
 
 export default Home;
