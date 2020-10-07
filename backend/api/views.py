@@ -54,3 +54,10 @@ def view_proj(request):
         data = NewProject.objects.all()
         serializer = NewProjectSerializer(data, context={'request': request}, many=True)
         return Response(serializer.data)
+
+@api_view('GET')
+def get_project(request):
+    """
+    get from project from db by project name or pk.
+    """
+    pass
