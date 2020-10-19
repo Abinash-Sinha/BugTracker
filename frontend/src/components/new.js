@@ -10,17 +10,17 @@ const NewBug = () => {
                 <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
                 </InputGroup.Prepend>
                 <FormControl
-                placeholder="Username"
-                aria-label="Username"
-                aria-describedby="basic-addon1"
+                    placeholder="Username"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
                 />
             </InputGroup>
 
             <InputGroup className="mb-3">
                 <FormControl
-                placeholder="Recipient's username"
-                aria-label="Recipient's username"
-                aria-describedby="basic-addon2"
+                    placeholder="Recipient's username"
+                    aria-label="Recipient's username"
+                    aria-describedby="basic-addon2"
                 />
                 <InputGroup.Append>
                 <InputGroup.Text id="basic-addon2">@example.com</InputGroup.Text>

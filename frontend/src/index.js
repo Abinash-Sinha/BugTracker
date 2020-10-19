@@ -5,13 +5,25 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Projects from './components/projects'
 import NewBug from './components/new'
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-    <Projects /> 
-    <Projects />
-    <NewBug />
+    
+    <BrowserRouter>
+      <Switch>
+        {/* <App /> */}
+        <Route path='/' component={App} />
+      </Switch>
+      
+    </BrowserRouter>, 
+    <BrowserRouter>
+      <Switch>
+        <Route path='/projects' component={Projects} />
+        <NewBug />
+      </Switch>  
+    </BrowserRouter>
+
   </React.StrictMode>,
   document.getElementById('root')
 );

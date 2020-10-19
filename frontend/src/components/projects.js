@@ -1,6 +1,7 @@
 import React from "react"
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
+import NewBug from './new'
 
 const Projects = () => {
     return(
@@ -15,6 +16,7 @@ const Projects = () => {
 			<Button variant="primary">Open</Button>
 		</Card.Body>
 		</Card>
+		<NewBug />
         </center>
 
     );
